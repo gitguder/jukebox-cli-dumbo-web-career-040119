@@ -45,4 +45,6 @@ def run
   help
   puts "Please enter a command:"
   song_request = gets.chomp
+
+  
 end
