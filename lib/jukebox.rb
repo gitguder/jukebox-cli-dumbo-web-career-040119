@@ -29,6 +29,7 @@ def play(songs)
   songs.each_with_index do |song, index|
     if "#{index + 1}. #{song}" == true
       puts "Playing #{song}"
+    else
     end
 
   end
