@@ -30,7 +30,8 @@ def play(songs)
     if "#{index + 1}. #{song}" == true
       puts "Playing #{song}"
     else
+      puts "Invalid input, please try again"
     end
-
   end
+  
 end
