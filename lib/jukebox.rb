@@ -18,5 +18,6 @@ def help
   puts "- exit : exits this program"
 end
 
-def
+def play
+  
 end
