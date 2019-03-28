@@ -51,5 +51,7 @@ def run
       list
     when "play"
       play
+    when "help"
+      help
 
 end
