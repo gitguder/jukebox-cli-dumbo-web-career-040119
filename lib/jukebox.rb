@@ -53,5 +53,6 @@ def run
       play
     when "help"
       help
+    when "exit"
 
 end
