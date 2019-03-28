@@ -48,6 +48,7 @@ def run
 
   case song_request
     when "list"
-      
+      list
+    when "play"
 
 end
