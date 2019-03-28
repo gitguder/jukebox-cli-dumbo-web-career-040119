@@ -28,9 +28,10 @@ def play(songs)
 
   songs.each_with_index do |song, index|
     if !"#{index + 1}. #{song}"
+      puts "Invalid input, please try again"
       puts "Playing #{song}"
     else
-      puts "Invalid input, please try again"
+      puts
     end
   end
 
