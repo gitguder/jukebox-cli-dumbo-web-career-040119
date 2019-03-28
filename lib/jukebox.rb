@@ -27,5 +27,6 @@ def play(songs)
   user_input = gets.chomp
 
   songs.each do
+    
   end
 end
