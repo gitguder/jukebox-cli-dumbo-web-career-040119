@@ -47,5 +47,7 @@ def run
   song_request = gets.chomp
 
   case song_request
-    when
+    when "list"
+      
+      
 end
