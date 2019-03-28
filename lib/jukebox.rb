@@ -50,5 +50,6 @@ def run
     when "list"
       list
     when "play"
+      play
 
 end
