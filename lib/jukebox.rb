@@ -46,5 +46,6 @@ def run
   puts "Please enter a command:"
   song_request = gets.chomp
 
-  
+  case song_request
+    when
 end
