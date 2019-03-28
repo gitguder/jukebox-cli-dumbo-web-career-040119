@@ -50,13 +50,14 @@ def run(songs)
 
   case command_request
     when "list"
-      list
+      list(songs)
     when "play"
-      play
+      play(songs)
     when "help"
       help
     when "exit"
       exit_jukebox
+      break
   end
 
 end
