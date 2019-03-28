@@ -44,6 +44,7 @@ end
 def run(songs)
   help
 
+  command_request = ""
   while command_request
     puts "Please enter a command:"
     command_request = gets.chomp.downcase
