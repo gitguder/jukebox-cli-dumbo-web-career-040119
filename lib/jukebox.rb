@@ -46,7 +46,7 @@ def run(songs)
 
   while command_request
     puts "Please enter a command:"
-    command_request
+    command_request = gets.chomp.downcase
   case
     when "list"
       list
